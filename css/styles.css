@@ -11,6 +11,13 @@ h1{
     
     line-height: 1.5;
 }
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+p{
+    color: #8f8f8f;
+}
 
 .container-fluid{
     padding:3% 15%;
@@ -44,4 +51,21 @@ padding:0 18px;
 .title-img{
     width: 60%;
     transform: rotate(20deg);
+}
+/* Feature box */
+#features{
+    padding:5% 14%
+}
+
+.feature-box{
+text-align:center;
+padding:5%;
+}
+
+.icon{
+    color:#ef8172;
+    margin-bottom:1rem;
+}
+.icon:hover{
+    color:#ff4c68;
 }
