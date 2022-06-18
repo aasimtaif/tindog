@@ -8,12 +8,17 @@ color:#fff
 h1{
     font-family: 'Ubuntu', sans-serif;
     font-size: 3.5rem;
-    
     line-height: 1.5;
 }
+h2{
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: bold;
+}
+
 h3{
     font-family: 'Montserrat', sans-serif;
-    font-weight: bolder;
+font-size: 3rem;
+font-weight: bold;
 }
 p{
     color: #8f8f8f;
@@ -68,4 +73,18 @@ padding:5%;
 }
 .icon:hover{
     color:#ff4c68;
+}
+
+/* Testimonials */
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color:#ef8172;  
+    color: #fff;
+}
+
+.testimonials-img{
+    width: 10%;
+    border-radius: 100%;
+    margin:20px;
 }
