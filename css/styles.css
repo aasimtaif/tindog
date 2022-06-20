@@ -13,6 +13,8 @@ h1{
 h2{
     font-family: 'Josefin Sans', sans-serif;  
     font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 h3{
@@ -77,7 +79,7 @@ padding:5%;
 
 /* Testimonials */
 #testimonials{
-    padding: 7% 15%;
+    
     text-align: center;
     background-color:#ef8172;  
     color: #fff;
@@ -87,4 +89,20 @@ padding:5%;
     width: 10%;
     border-radius: 100%;
     margin:20px;
+}
+
+/* press-section */
+
+#press{
+    text-align: center;
+    background-color:#ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width:15%;
+    margin:20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
 }
